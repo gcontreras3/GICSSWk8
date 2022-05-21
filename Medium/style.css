@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 600px;
+    height: 500px;
+    display: grid;
+}
+.col{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    grid-row: 1;
+}
+.col2{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    grid-row: 2;
+}
+/* Products */
+.products{
+    padding: 5px;
+    font-size: 16px;
+}
+.products img{
+    height: 200px;
+    padding: 5px;
+}
